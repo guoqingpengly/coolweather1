@@ -33,4 +33,13 @@ public class County {
     public  void  setCityId(int  cityId){
         this.cityId =cityId;
     }
+
+    public void setCoutyName(String coutyName) {
+        this.countyName = coutyName;
+    }
+
+    public void save() {
+    }
+
+
 }

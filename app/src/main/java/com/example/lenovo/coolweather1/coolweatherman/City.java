@@ -19,6 +19,12 @@ public class City {
     private String so2;
     private String co;
     private String o3;
+    private int cityCode;
+    private int provinceId;
+    private String cityName;
+    private String city;
+    private int id;
+
     public void setAqi(String aqi) {
          this.aqi = aqi;
      }
@@ -75,4 +81,35 @@ public class City {
          return o3;
      }
 
+    public void setCityName(String cityName) {
+        this.cityName = cityName;
+    }
+
+    public void setCityCode(int cityCode) {
+        this.cityCode = cityCode;
+    }
+
+    public void setProvinceId(int provinceId) {
+        this.provinceId = provinceId;
+    }
+
+    public void save() {
+    }
+
+    public String getCity()  {
+        return  city;
+
+    }
+
+    public String getCityName() {
+        return cityName;
+    }
+
+    public int getCityCode() {
+        return 0;
+    }
+
+    public int getId() {
+        return id;
+    }
 }
